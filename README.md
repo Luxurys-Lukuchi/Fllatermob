@@ -1,16 +1,48 @@
-# lab1
+Установка инструментов для Flutter и создание нового проекта
+1. Установка Flutter SDK
 
-A new Flutter project.
+    Зайти на официальный сайт Flutter: [https://docs.flutter.dev/get-started/install].
+    Выбрать платформу Windows.
+    Выбрать тип первого приложения -> рекомендовано.
+    Если нету VsCode, скачать с официального сайта: [https://code.visualstudio.com/docs?dv=win].
+    После установки VsCode, нужно зайти в расширения (Control + Shift + X) и написать Flutter, после чего нажать на кнопку install.
+    После установки Flutter, нужно нажать Control + Shift + P и в открывшийся строке написать Flutter: New Project и нажать Enter.
+    После чего VS Code предложит найти Flutter SDK на компьютере, нужно нажать, что Flutter SDK не установлен, после чего начнется скачивание нужных пакетов.
 
-## Getting Started
+2. Настройка переменных окружения
 
-This project is a starting point for a Flutter application.
+Vs Code автоматически, должен добавить путь в Path, но если нет, то ручное добавление, выглядит следующим образом:
 
-A few resources to get you started if this is your first Flutter project:
+    Открыть "Панель управления" -> "Система и безопасность" -> "Система" -> "Дополнительные параметры системы".
+    Нажать "Переменные среды".
+    В разделе "Системные переменные" найдти переменную Path и нажать "Изменить".
+    Добавить путь к папке bin внутри распакованного Flutter SDK.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Создание нового Flutter-проекта
+3.1 Создание проекта через терминал
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Нажать на терминал(Control + `).
+    Перейти в папку, где нужно создать проект.
+    Написать в терминале команду: flutter create "название приложения"
+    Если всё установленно правильно, после завершения команды, в указанной папке будет создан новый проект Flutter с базовой структурой файлов.
+    Нажать F5, после чего проект будет запущен.
+
+3.2 Создание проекта через строку команд
+
+    Нажать Control + Shift + P.
+    В открывшийся строке написать Flutter: New Project и нажать Enter.
+    Выбрать папку, где будет сохранен проект и написать название проекта.
+    Если всё установленно правильно, после написания названия проекта, в указанной папке будет создан новый проект Flutter с базовой структурой файлов.
+    Нажать F5, после чего проект будет запущен. image
+
+4. Установка Git и загрузка Flutter-проекта на GitHub
+
+    Зайти на официальный сайт Git: [https://git-scm.com/downloads].
+    Скачать установочный файл для Windows.
+    Запустить установщик и выполнить инструкции на экране.
+    Зайти в Git Bash и указать имя и email, которые будут использоваться для коммитов. git config --global user.name "Ваше Имя" git config --global user.email "ваш_email@example.com"
+    Войти в аккаунт на GitHub.
+    Зайти в Repositories и нажать на New.
+    Написать имя репозитория.
+    Нажать в Vs Code Control + Shift + G и авторизоваться в Github.
+    Выбрать репризиторий и нажать сохранить.
