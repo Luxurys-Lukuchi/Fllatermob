@@ -3,6 +3,11 @@
 ставка процентов), а также чек-бокс на согласие обработки данных. Реализовать
 валидацию полей и чекбокса. Передать данные с первого экрана на второй экран
 произвести расчеты и отобразить.
+
+
+
+
+
 ![изображение](https://github.com/user-attachments/assets/d27257bb-f18b-455b-bfef-545928b38705)
 ![изображение](https://github.com/user-attachments/assets/390df8d5-adcd-4058-8fac-c2aac2a0d7cf)
 ![изображение](https://github.com/user-attachments/assets/614e53e5-09ab-4a9b-8cd6-11bce5da0bf3)
