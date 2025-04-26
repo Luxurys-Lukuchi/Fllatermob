@@ -1,3 +1,6 @@
+# Условия из 3 лабораторной
+https://github.com/Luxurys-Lukuchi/Fllatermob/tree/main/laba-3
+
 Отличия 4 от 3 лабораторной работы
 Использование Cubit
                                                                                                                                         
