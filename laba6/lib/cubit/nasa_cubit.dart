@@ -13,7 +13,7 @@ class NasaLoaded extends NasaState {
 
 class NasaError extends NasaState {
   final String message;
-  NasaError(this.message); // Добавлен конструктор
+  NasaError(this.message); 
 }
 
 class NasaCubit extends Cubit<NasaState> {
