@@ -18,9 +18,9 @@ class Photo {
     required this.rover,
   });
 
-  // Метод для безопасного URL
+  
   String get safeImgSrc {
-    // Заменяем проблемные домены и протоколы
+    
     return imgSrc
         .replaceFirst('http://mars.jpl.nasa.gov', 'https://mars.nasa.gov')
         .replaceFirst('http://', 'https://');
