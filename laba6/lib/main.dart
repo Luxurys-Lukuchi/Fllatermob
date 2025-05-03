@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: const Text(
               'Выполнил Нечталенко И.А.',
-              style: TextStyle(fontSize: 16), // Настройка стиля текста
+              style: TextStyle(fontSize: 16), 
             ),
           ),
-          body: const HomeScreen(), // Основной экран приложения
+          body: const HomeScreen(), 
         ),
       ),
     );
