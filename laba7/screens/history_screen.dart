@@ -29,7 +29,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
       history.removeAt(index);
       await prefs.setStringList('history', history);
       setState(() {
-        _historyFuture = _getHistory(); // Обновляем список
+        _historyFuture = _getHistory(); 
       });
     }
   }
